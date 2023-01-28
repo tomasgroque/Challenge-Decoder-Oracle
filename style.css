@@ -1,0 +1,378 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    width: auto;
+    height: 1024px;
+}
+
+.logo-alura{
+    position: absolute;
+    margin: 30px 0 0 44px;
+}
+
+.texto-encriptar{
+    position: absolute;
+    width: 577px;
+    height: auto;
+    margin-top: 158px;
+    margin-left: 240px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: #F3F5FC;
+    border: none;
+    resize: none;
+}
+
+.exclamation{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.information-text{
+    position: absolute;
+    width: 280px;
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 0px;
+
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+
+}
+
+.buttons{
+    position: absolute;
+    margin-top: 790px;
+    margin-left: 240px;
+    width: 700px;
+    height: 67px;
+}
+
+.button-encriptar{
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    margin-top: 26px;
+
+    background: #0A3871;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    border: none;
+    transition: all 1s;
+
+}
+
+.button-encriptar:hover{
+    background-color: #031833;
+    color: white;
+    transform: scale(1.1);
+}
+
+.button-desencriptar{
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+
+    background: #D8DFE8;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin-left: 24px;
+    transition: all 1s;
+
+}
+
+.button-desencriptar:hover{
+    background-color: white;
+    border: 1px solid #0A3871;
+    transform: scale(1.1);
+    
+}
+
+.encriptador{
+    position: absolute;
+    width: 400px;
+    height: 910px;
+    margin: 10px 40px 40px 1000px;
+
+    background-color: #FFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.imagen-encriptado{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 32px;
+}
+
+.mensaje-sinTexto{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 32px;
+
+    width: 336px;
+    height: 58px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343A40;
+}
+
+.mensaje-encriptado{
+    margin-top: 16px;
+    margin-left: 32px;
+
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #495057;
+    border: none;
+    resize: none;
+    background-color: white;
+}
+
+.button-copiar{
+    margin-left: 32px;
+
+    width: 336px;
+    height: 67px;
+    padding: 24px;
+    gap: 8px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #0A3871;
+    opacity: 0;
+    transition: all 1s;
+
+}
+.button-copiar:hover{
+    background-color: #f06543;
+    transform: scale(1.1);
+    color: white;
+    border: white;
+}
+
+
+
+@media (min-width:768px) and (max-width:1438px){
+
+    body{
+        width: auto;
+    }
+
+    .logo-alura{
+        position: absolute;
+        margin-top: 74px;
+        margin-left: 15px;
+
+
+    }
+
+    .texto-encriptar{
+        position: absolute;
+        width: 688px;
+        margin-top: 240px;
+        margin-left: 40px;
+
+    }
+
+    .exclamation{
+        margin-top: 0px;
+        margin-left: 16px;
+    }
+
+    .information-text{
+        margin-top: 0px;
+        margin-left: 36px;
+    }
+
+    .buttons{
+        margin-top: 870px;
+        margin-left: 40px;
+        width: 688px;
+    }
+
+    .button-encriptar:hover{
+        background-color: #031833;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .button-desencriptar{
+        margin-left: 20px;
+    }
+
+    .button-desencriptar:hover{
+        background-color: white;
+        border: 1px solid #0A3871;
+        transform: scale(1.1);
+    }
+
+    .encriptador{
+        margin-top: 1001px;
+        margin-left:  40px;
+        width: 688px;
+        height: 133px;
+    }
+
+    .imagen-encriptado{
+        display: none;
+    }
+
+    .mensaje-sinTexto{
+        width: 624px;
+        height: 29px;
+        margin-top: 32px;
+        margin-left: 32px;
+        margin-bottom: 0px;
+    }
+
+    .mensaje-encriptado{
+        width: 624px;
+        height: 24px;
+        margin-left: 32px;
+    }
+
+    .button-copiar{
+        width: 624px;
+        margin-top: 24px;
+        opacity: 0;
+    }
+
+    .button-copiar:hover{
+        background-color: #f06543;
+        transform: scale(1.1);
+        color: white;
+        border: white;
+    }
+}
+
+@media (min-width:375px) and (max-width:767px){
+    body{
+        width: 375px;
+        height: 930px;
+    }
+
+    .logo-alura{
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+
+    .texto-encriptar{
+        position: relative;
+        width: 343px;
+        height: auto;
+        margin-top: 152px;
+        margin-left: 16px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .exclamation{
+        margin-top: 0px;
+        margin-left: 16px;
+    }
+    
+    .information-text{
+        width: 300px;
+        margin-top: 0;
+        margin-left: 35px;
+
+    }
+
+    .separation{
+        padding-bottom: 40px;
+    }
+
+    .buttons{
+        width: 300px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .button-encriptar{
+        width: 343px;
+        margin: 30px 16px 15px 16px;
+    }
+
+    .button-encriptar:hover{
+        background-color: #031833;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .button-desencriptar{
+        width: 343px;
+        margin: 0px 16px 140px 16px;
+    }
+
+    .button-desencriptar:hover{
+        background-color: white;
+        border: 1px solid #0A3871;
+        transform: scale(1.1);
+    }
+
+    .encriptador{
+        width: 327px;
+        height: 186px;
+        margin: 200px 24px 40px 24px;
+
+    }
+
+    .imagen-encriptado{
+        display: none;
+    }
+
+    .mensaje-sinTexto{
+        width: 263px;
+        height: 58px;
+        margin-top: 20px;
+    }
+
+    .mensaje-encriptado{
+        width: 263px;
+        height: 48px;
+    }
+
+    .button-copiar{
+        width: 263px;
+        opacity: 0;
+        margin-right: 32px;
+    }
+
+    .button-copiar:hover{
+        background-color: #f06543;
+        transform: scale(1.1);
+        color: white;
+        border: white;
+    }
+
+}
+
+
+

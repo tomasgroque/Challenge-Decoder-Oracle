@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/87422d7adc.js" crossorigin="anonymous"></script>
+    <title>Alura Encryptator</title>
+</head>
+<body>
+
+    <header>
+        <img class="logo-alura" src="Logo.png" alt="Logo alura">
+    </header>
+
+    <main>
+        <section class="text-box">
+            <div class="separation">
+                <textarea class="texto-encriptar" name="textarea" id="" cols="30" rows="10">Ingrese el texto aqui</textarea>
+            </div>
+            <div class="buttons">
+                <i class="exclamation fa-solid fa-circle-exclamation"></i>
+                <p class="information-text">Solo letras minúsculas y sín carácteres especiales</p>
+                <button class="button-encriptar" >Encriptar</button>
+                <button class="button-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="encriptado-box">
+            <div class="encriptador">
+                <img class="imagen-encriptado" src="Muñeco.png" alt="">
+                <h3 class="mensaje-sinTexto">Ningún mensaje fue encontrado</h3>
+                <textarea class="mensaje-encriptado" name="textarea" id="" cols="20" rows="10" disabled>Ingresa el texto que desees encriptar o desencriptar</textarea>
+                <button class="button-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="index.js"></script>
+</html>
